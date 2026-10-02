@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">IK Materials</title>
+  <desc id="desc">IK Materials, Building Rwanda Together</desc>
+  <g fill="none" stroke="#4497dc" stroke-width="18">
+    <path d="M132 103a92 92 0 1 1 176 0" stroke-linecap="round"/>
+  </g>
+  <path fill="#4497dc" d="M178 65h45v29h-45zm0 42h45v74h-45zM254 103l57-57h61l-61 61v38l-31 28h-26z"/>
+  <path fill="#999b9e" d="m292 117 26-26 61 61h-62z"/>
+  <text x="24" y="207" fill="#4497dc" font-family="Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="1">IK</text>
+  <text x="128" y="207" fill="#929498" font-family="Arial,sans-serif" font-size="47" font-weight="800" letter-spacing="1">MATERIALS</text>
+  <path stroke="#4497dc" stroke-width="4" d="M25 216h67m530 0h68"/>
+  <text x="180" y="222" fill="#4497dc" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">BUILDING RWANDA TOGETHER</text>
+</svg>

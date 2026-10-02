@@ -1,0 +1,23 @@
+{
+  "name": "ik-shop",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Construction materials online shop",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev:client": "npm --workspace client run dev",
+    "build:client": "npm --workspace client run build",
+    "lint:client": "npm --workspace client run lint",
+    "typecheck:client": "npm --workspace client run typecheck",
+    "dev:server": "npm --workspace server run dev",
+    "start:server": "npm --workspace server run start",
+    "build:server": "npm --workspace server run build",
+    "lint:server": "npm --workspace server run lint",
+    "typecheck:server": "npm --workspace server run typecheck",
+    "test:server": "npm --workspace server run test",
+    "build": "npm run build:client && npm run build:server",
+    "lint": "npm run lint:client && npm run lint:server",
+    "typecheck": "npm run typecheck:client && npm run typecheck:server",
+    "test": "npm run test:server"
+  }
+}
