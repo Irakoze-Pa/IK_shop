@@ -46,8 +46,9 @@ app.use((error: unknown, _request: express.Request, response: express.Response, 
   response.status(500).json({ error: 'Internal server error' });
 });
 
-app.listen(env.SERVER_PORT, () => {
-  console.log(`IK Shop server listening on port ${env.SERVER_PORT}`);
+app.listen(env.PORT, '0.0.0.0', () => {
+  console.log(`IK Shop server listening on port ${env.PORT}`);
 });
+
 
 void connectDatabase();

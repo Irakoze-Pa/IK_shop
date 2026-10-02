@@ -9,7 +9,7 @@ config({ path: resolve(projectRoot, '.env.local'), override: true });
 
 const envSchema = z.object({
   NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
-  SERVER_PORT: z.coerce.number().int().min(1).max(65535).default(4000),
+  PORT: z.coerce.number().int().min(1).max(65535).default(4000),
   CLIENT_ORIGIN: z.string().url().default('http://localhost:5173'),
   MONGODB_URI: z.string().min(1).default('mongodb://127.0.0.1:27017/ik_shop'),
   JWT_SECRET: z.string().min(16).default('local-development-secret-change-me'),
